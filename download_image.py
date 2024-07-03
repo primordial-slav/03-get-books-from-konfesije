@@ -37,7 +37,7 @@ def create_download_folder(folder_name):
     return folder_name
 
 def main():
-    config_path = './config.txt'  # Path to the config file
+    config_path = './dummy_config.txt'  # Path to the config file
     config = read_config(config_path)
 
     # Create and use a 'temp' folder in the current directory for downloads
